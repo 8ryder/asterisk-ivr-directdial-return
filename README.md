@@ -9,3 +9,5 @@ You should create a Custom Destination from FreePBX, with this target:
 On the IVR where you want to achieve this functionality you should:
 1. disable the direct dialing
 2. create a destination with ext "\_2XX" and the custom destination mentioned above
+
+And you should put the context from the file to your conf file, like `/etc/asterisk/extensions_custom.conf`
